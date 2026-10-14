@@ -1,0 +1,12 @@
+# Normalise line endings so the repository is identical on every platform.
+# Text files are stored with LF; Windows checkouts still get CRLF for batch files.
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets
+*.jar binary
+*.png binary
+*.gif binary
+*.zip binary

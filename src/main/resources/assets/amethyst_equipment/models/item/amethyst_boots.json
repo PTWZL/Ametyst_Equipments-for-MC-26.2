@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "amethyst_equipment:item/amethyst_boots"
+  }
+}

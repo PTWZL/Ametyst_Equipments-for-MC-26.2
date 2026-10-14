@@ -1,0 +1,25 @@
+{
+	"item.amethyst_equipment.amethyst_ingot": "\u7d2b\u6c34\u6676\u9320",
+	"item.amethyst_equipment.amethyst_sword": "\u7d2b\u6c34\u6676\u528d",
+	"item.amethyst_equipment.amethyst_spear": "\u7d2b\u6c34\u6676\u9577\u77db",
+	"item.amethyst_equipment.amethyst_pickaxe": "\u7d2b\u6c34\u6676\u946c",
+	"item.amethyst_equipment.amethyst_axe": "\u7d2b\u6c34\u6676\u65a7",
+	"item.amethyst_equipment.amethyst_shovel": "\u7d2b\u6c34\u6676\u94f2",
+	"item.amethyst_equipment.amethyst_hoe": "\u7d2b\u6c34\u6676\u92c4",
+	"item.amethyst_equipment.amethyst_helmet": "\u7d2b\u6c34\u6676\u982d\u76d4",
+	"item.amethyst_equipment.amethyst_chestplate": "\u7d2b\u6c34\u6676\u80f8\u7532",
+	"item.amethyst_equipment.amethyst_leggings": "\u7d2b\u6c34\u6676\u8b77\u817f",
+	"item.amethyst_equipment.amethyst_boots": "\u7d2b\u6c34\u6676\u9774\u5b50",
+	"item.amethyst_equipment.refraction_book": "\u6298\u5149\u5f37\u5316\u66f8",
+
+	"tooltip.amethyst_equipment.light": "\u5149\u7167\u5f37\u5ea6\uff1a%d",
+	"tooltip.amethyst_equipment.refraction": "\u6298\u5149\u5f37\u5316 %d \u7d1a\uff1a\u5149\u7167\u4fc2\u6578 \u00d7%s",
+	"tooltip.amethyst_equipment.refraction_howto": "\u5728\u5de5\u4f5c\u53f0\u8207\u7d2b\u6c34\u6676\u88dd\u5099\u5408\u6210\uff0c\u5373\u53ef\u6ce8\u5165\u6298\u5149\u5f37\u5316",
+	"tooltip.amethyst_equipment.current_armor": "\u76ee\u524d\u8b77\u7532\u503c\uff1a+%s",
+	"tooltip.amethyst_equipment.current_knockback": "\u76ee\u524d\u64c3\u9000\u6297\u6027\uff1a+%s",
+	"tooltip.amethyst_equipment.max_armor": "\u6700\u5927\u8b77\u7532\u503c\uff1a+%s\uff08\u5149\u7167 15\uff09",
+	"tooltip.amethyst_equipment.max_knockback": "\u6700\u5927\u64c3\u9000\u6297\u6027\uff1a+%s\uff08\u5149\u7167 15\uff09",
+	"tooltip.amethyst_equipment.current_damage": "\u76ee\u524d\u5149\u7167\u52a0\u6210\uff1a+%s \u653b\u64ca\u529b",
+	"tooltip.amethyst_equipment.total_damage": "\u76ee\u524d\u7e3d\u653b\u64ca\u529b\uff1a%s",
+	"tooltip.amethyst_equipment.max_damage": "\u5149\u7167 15 \u6642\u52a0\u6210\uff1a+%s \u653b\u64ca\u529b"
+}

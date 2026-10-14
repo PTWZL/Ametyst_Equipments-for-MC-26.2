@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": "minecraft:amethyst_block",
+    "2": "minecraft:diamond_block",
+    "3": "minecraft:amethyst_block"
+  },
+  "pattern": [
+    "1  ",
+    " 2 ",
+    "  3"
+  ],
+  "result": {
+    "id": "amethyst_equipment:refraction_book"
+  }
+}

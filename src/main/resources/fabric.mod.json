@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "amethyst_equipment",
+	"version": "${version}",
+	"name": "Amethyst Equipment",
+	"description": "Adds an amethyst ingot (smelted from amethyst shards and found in abandoned mineshafts), a full amethyst tool set, a sword, a spear and a set of armour. The armour, sword and spear grow stronger with the light level the player stands in: armour gains 0.8 armour and 0.2 knockback resistance per light level on top of the golden armour values, and the weapons deal 6 base attack damage plus 0.3 per light level. Every item has 9/10 of the netherite durability.",
+	"authors": [
+		"DSH"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/amethyst_equipment/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.amethyst.amethystequipment.AmethystEquipment"
+		],
+		"client": [
+			"cn.amethyst.amethystequipment.client.AmethystEquipmentClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

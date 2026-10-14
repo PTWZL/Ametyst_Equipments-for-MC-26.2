@@ -1,0 +1,71 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.version
+group = project.group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Loom adds the essential repositories (Minecraft, Fabric, Mojang) automatically.
+}
+
+dependencies {
+	// Minecraft 26.2 ships unobfuscated, so mods compile directly against the
+	// official Mojang names that Fabric Loader uses at runtime. Loom rejects an
+	// explicit mappings block in a non-obfuscated environment.
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+
+	// In a non-obfuscated environment there is nothing to remap, so Loom exposes
+	// plain `implementation` (there is no `modImplementation` configuration).
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+processResources {
+	def props = [
+		version: project.version,
+		loader_version: project.loader_version,
+		minecraft_version: project.minecraft_version
+	]
+	inputs.properties props
+
+	filesMatching('fabric.mod.json') {
+		expand props
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = 'UTF-8'
+}
+
+java {
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+	def projectName = project.name
+	inputs.property 'projectName', projectName
+
+	from('LICENSE') {
+		rename { "${it}_$projectName" }
+	}
+}
+
+publishing {
+	publications {
+		create('mavenJava', MavenPublication) {
+			from components.java
+		}
+	}
+	repositories {
+	}
+}

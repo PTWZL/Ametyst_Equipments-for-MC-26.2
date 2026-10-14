@@ -1,0 +1,25 @@
+{
+	"item.amethyst_equipment.amethyst_ingot": "Amethyst Ingot",
+	"item.amethyst_equipment.amethyst_sword": "Amethyst Sword",
+	"item.amethyst_equipment.amethyst_spear": "Amethyst Spear",
+	"item.amethyst_equipment.amethyst_pickaxe": "Amethyst Pickaxe",
+	"item.amethyst_equipment.amethyst_axe": "Amethyst Axe",
+	"item.amethyst_equipment.amethyst_shovel": "Amethyst Shovel",
+	"item.amethyst_equipment.amethyst_hoe": "Amethyst Hoe",
+	"item.amethyst_equipment.amethyst_helmet": "Amethyst Helmet",
+	"item.amethyst_equipment.amethyst_chestplate": "Amethyst Chestplate",
+	"item.amethyst_equipment.amethyst_leggings": "Amethyst Leggings",
+	"item.amethyst_equipment.amethyst_boots": "Amethyst Boots",
+	"item.amethyst_equipment.refraction_book": "Refraction Book",
+
+	"tooltip.amethyst_equipment.light": "Light level: %d",
+	"tooltip.amethyst_equipment.refraction": "Refraction %d: light coefficients x%s",
+	"tooltip.amethyst_equipment.refraction_howto": "Combine with amethyst gear in a crafting table to infuse it",
+	"tooltip.amethyst_equipment.current_armor": "Armour bonus now: +%s",
+	"tooltip.amethyst_equipment.current_knockback": "Knockback resistance now: +%s",
+	"tooltip.amethyst_equipment.max_armor": "Armour bonus at light 15: +%s",
+	"tooltip.amethyst_equipment.max_knockback": "Knockback resistance at light 15: +%s",
+	"tooltip.amethyst_equipment.current_damage": "Light bonus now: +%s attack damage",
+	"tooltip.amethyst_equipment.total_damage": "Total attack damage now: %s",
+	"tooltip.amethyst_equipment.max_damage": "Light bonus at light 15: +%s attack damage"
+}
